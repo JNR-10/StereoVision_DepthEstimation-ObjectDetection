@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Data / models (do not commit large files)
+pretrained_models/
+data_scene_flow/
+data_scene_flow_calib/
+output/
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

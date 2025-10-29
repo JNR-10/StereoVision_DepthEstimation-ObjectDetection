@@ -1,0 +1,20 @@
+name: depth-clean
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pillow
+  - opencv
+  - tqdm
+  - scipy
+  - open3d
+  - timm
+  - pip:
+    - -r requirements.txt
+
+# Note: PyTorch installation is platform-specific. After creating this env,
+# install PyTorch following official instructions at https://pytorch.org
+# Example (CPU-only):
+# pip install "torch" torchvision --index-url https://download.pytorch.org/whl/cpu

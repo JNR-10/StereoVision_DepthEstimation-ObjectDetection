@@ -1,0 +1,17 @@
+# Core Python dependencies used by this project.
+# NOTE: Installing torch is platform-specific. Follow https://pytorch.org/ for the
+# correct command for your platform (macOS/Apple Silicon, Linux, Windows) and
+# desired CUDA or CPU-only build.
+
+numpy
+opencv-python
+Pillow
+tqdm
+scipy
+open3d
+timm
+ultralytics
+torchvision
+
+# Optional / dev
+pytest
