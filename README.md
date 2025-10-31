@@ -94,7 +94,7 @@ Here is the inference time on Nvidia-2080Ti
 ---
 Reach me @
 
-[LinkedIn](https://www.linkedin.com/in/satya1507/) [GitHub](https://github.com/satya15july) [Medium](https://medium.com/@satya15july_11937)
+[LinkedIn](www.linkedin.com/in/jainil-rana-ba0663224) [GitHub](https://github.com/JNR-10)
 
 
 
