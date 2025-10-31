@@ -1,24 +1,20 @@
 # Depth Estimation From Stereo Images
 
 ## Introduction:
-https://user-images.githubusercontent.com/22910010/221394203-adbb3581-5e6c-4edc-bfee-6f2469990896.mp4
+assets/demo_output.mp4
 
-(Note: Upper part is Disparity Map and bottom part is Object detection + Depth Estimation(z=?))
-
-Please check my [Medium Blog](https://medium.com/@satya15july_11937/depth-estimation-from-stereo-images-using-deep-learning-314952b8eaf9) for more information
-
-Full Video output is shared at [Link](https://drive.google.com/file/d/1biTFslu7mCiLQTtq84wc5B8CTaJsWlrA/view?usp=sharing)
+(Note: Upper part is Disparity Map and bottom part is Object detection + Depth Estimation)
 
 Incase of Stereo Setup, Depth estimation is dependent on disparity map.
 ![disparity drawio](https://user-images.githubusercontent.com/22910010/221393481-38847a4e-3c24-4daf-a803-e948051be575.png)
 
 [PointCloud Output]
 
-https://user-images.githubusercontent.com/22910010/220879862-f2a86b14-b30f-4f8a-9f2e-7fa07fc96d15.mp4
+assets/point_cloud.mp4
 
 ## Dependency
 
-- Download Pre-Trained model which i shared at [Download Link](https://drive.google.com/file/d/1dBqxyEQm2g0bfUgWlTBNMo4opFtffedz/view?usp=sharing)
+- Download Pre-Trained model which i shared at [Download Link](https://drive.google.com/drive/folders/1j9DHSvIqM41vMVLlJomt8WRGRgBa_5h1?usp=share_link)
 
     Place it inside root folder and update the path in the config.py.
 
@@ -28,7 +24,7 @@ https://user-images.githubusercontent.com/22910010/220879862-f2a86b14-b30f-4f8a-
     ...
     ```
 
-- Download Yolo for object detection.I shared it at [Download Link](https://drive.google.com/file/d/1PGqoHTNinGGVTIp-b5KtGBnMTJcgx1Sx/view?usp=sharing).
+- Download Yolo for object detection.I shared it at [Download Link](https://drive.google.com/file/d/1onQwWb4lrJ4a-OLLHcgwM0YD6-H9U6rh/view?usp=share_link).
 
 ## Setting up DataSet
 Download Kitti Dataset from [Download Link](https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
@@ -81,8 +77,6 @@ Here is the profiling data:
 Here is the inference time on Nvidia-2080Ti
 
 ![inference drawio](https://user-images.githubusercontent.com/22910010/221400886-c5ed6e1b-1e7e-4bcd-b6d9-5709f4503863.png)
-
-- [ ] Issue with HitNet Implementation.
 
 # Acknowledgements
   Thanks to the authors of fastacv-plus, bgnet, gwcnet, pasmnet, crestereo, hitnet, psmnet and raft-stereo for their opensource code.
