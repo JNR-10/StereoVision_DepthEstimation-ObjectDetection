@@ -74,9 +74,6 @@ Here is the profiling data:
 
 ![disparity_map_profile_](https://user-images.githubusercontent.com/22910010/221400837-5ad3ae24-f23f-420a-9b4d-8328c1499c21.png)
 
-Here is the inference time on Nvidia-2080Ti
-
-![inference drawio](https://user-images.githubusercontent.com/22910010/221400886-c5ed6e1b-1e7e-4bcd-b6d9-5709f4503863.png)
 
 # Acknowledgements
   Thanks to the authors of fastacv-plus, bgnet, gwcnet, pasmnet, crestereo, hitnet, psmnet and raft-stereo for their opensource code.
